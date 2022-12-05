@@ -13,8 +13,13 @@ def main():
    		3. Beigt darbu ar programmu
             """)
 		izvele = int(input("Ievadi izvēli: "))
-		if izvele == 1 :
+        a = int(input("Ievadi izvēli: "))
+        y = int(input("Ievadi izvēli: "))
+		if izvele == 1:
+            linard.atn(x; y)
 		elif izvele == 2:
+            linard.atn(x; y)
 		elif izvele == 3:	
-		break
+		    break
+
 main()
