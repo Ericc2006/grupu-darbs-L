@@ -1,8 +1,10 @@
 def summa(x, y):
-    return x + y
+    print(f"Skaitļu {x} + {y} = {x + y}")
+    return
 
 def atn(x, y):
-    return x - y
+    print(f"Skaitļu {x} - {y} = {x - y}")
+    return 
 
 def liel(x, y):
     if x > y:
@@ -12,4 +14,5 @@ def liel(x, y):
     return
 
 def vidap(x, y):
-    return (x * y)/2
+    print(f"Skaitļa {x} vidējais aritmetiskais {y} = {(x+y)/2}")
+    return

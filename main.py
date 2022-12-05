@@ -9,17 +9,16 @@ def main():
 		print("""
     	1. Atņemšana
     	2. Reizināšana
-		
    		3. Beigt darbu ar programmu
             """)
 		izvele = int(input("Ievadi izvēli: "))
-        a = int(input("Ievadi izvēli: "))
-        y = int(input("Ievadi izvēli: "))
+		a = int(input("Ievadi 1 skaitli: "))
+		y = int(input("Ievadi 2 skaitli: "))
 		if izvele == 1:
-            linard.atn(x; y)
+			linard.atn(a,y)
 		elif izvele == 2:
-            linard.atn(x; y)
-		elif izvele == 3:	
-		    break
+			erik.reiz(a,y)
+		elif izvele == 3:
+			break
 
 main()
