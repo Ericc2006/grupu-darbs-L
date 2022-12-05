@@ -5,18 +5,14 @@ import linard
 # ...............
  
 def main():
-while True:
-        print("""
-    		1. darbība
-    	2. darbība
-	…………..
+	while True:
+		print("""
+    	1. Atņemšana
+    	2. Reizināšana
+		
    		3. Beigt darbu ar programmu
             """)
-    	izvele = int(input("Ievadi izvēli: "))
-    	if izvele == 1:
-            		funkcija1()
-    	elif izvele == 2:
-      	  	funkcija2()
-    	elif izvele == 3:
-        		break 
+		izvele = int(input("Ievadi izvēli: "))
+		if izvele == 1 :
+
 main()
