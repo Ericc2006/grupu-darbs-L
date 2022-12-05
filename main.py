@@ -14,5 +14,7 @@ def main():
             """)
 		izvele = int(input("Ievadi izvēli: "))
 		if izvele == 1 :
-
+		elif izvele == 2:
+		elif izvele == 3:	
+		break
 main()
