@@ -5,4 +5,4 @@ def dal(x, y):
     return x / y
 
 def kap(x, y):
-    return x * y
+    return x ** y
